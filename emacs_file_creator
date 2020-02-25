@@ -1,0 +1,13 @@
+#!/bin/bash
+cd
+touch .emacs
+echo "(setq c-default-style \"bsd\"" >> .emacs
+echo -e '\t' "c-basic-offset 8" >> .emacs
+echo -e '\t' "tab-width 8" >> .emacs
+echo -e '\t' "indent-tabs-mode t)" >> .emacs
+echo -e >> .emacs
+echo "(require 'whitespace)" >> .emacs
+echo "(setq whitespace-style '(face empty lines-tail trailing))" >> .emacs
+echo "(global-whitespace-mode t)" >> .emacs
+echo -e >> .emacs
+echo "(setq column-number-mode t)" >> .emacs

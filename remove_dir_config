@@ -1,0 +1,5 @@
+#!/bin/bash
+rm -R */
+git config --global --unset user.name
+git config --global --unset user.email
+
