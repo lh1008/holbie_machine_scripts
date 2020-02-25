@@ -9,12 +9,14 @@ sudo apt-get install git
 sudo apt-get install emacs
 sudo apt-get install valgrind
 sudo apt-get install ruby
+sudo apt-get install shellcheck
 git config --global user.name "lh008"
 git config --global user.email paintluis@gmail.com
 git clone https://github.com/lh1008/holbertonschool-low_level_programming.git
 git clone https://github.com/lh1008/holberton-system_engineering-devops.git
 git clone https://github.com/lh1008/holbertonschool-higher_level_programming.git
 git clone https://github.com/lh1008/holbertonschool-higher_level_programming-1.git
+git clone https://github.com/lh1008/holbie_machine_scripts.git
 git clone https://github.com/holbertonschool/Betty.git
 cd Betty
 sudo ./install.sh
