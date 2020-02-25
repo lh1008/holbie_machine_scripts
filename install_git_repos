@@ -8,6 +8,7 @@ sudo apt-get upgrade
 sudo apt-get install git
 sudo apt-get install emacs
 sudo apt-get install valgrind
+sudo apt-get install ruby
 git config --global user.name "lh008"
 git config --global user.email paintluis@gmail.com
 git clone https://github.com/lh1008/holbertonschool-low_level_programming.git
