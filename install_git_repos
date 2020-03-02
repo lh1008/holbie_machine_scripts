@@ -10,6 +10,7 @@ sudo apt-get install emacs
 sudo apt-get install valgrind
 sudo apt-get install ruby
 sudo apt-get install shellcheck
+sudo apt-get install mysql-server
 git config --global user.name "lh008"
 git config --global user.email paintluis@gmail.com
 git clone https://github.com/lh1008/holbertonschool-low_level_programming.git
